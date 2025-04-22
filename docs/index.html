@@ -64,7 +64,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    
+    <a href="https://hchpan.github.io/friends.html" class="btn btn-invisible circle" title="My friends">
+        <svg class="octicon" width="16" height="16" >
+            <path id="My friends" fill-rule="evenodd"></path>
+        </svg>
+    </a>
     <a href="https://hchpan.github.io/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
             <path id="pathRSS" fill-rule="evenodd"></path>
@@ -158,7 +162,7 @@ for(var i=0;i<iconPost.length;i++){
 
 
 
-
+document.getElementById("My friends").setAttribute("d",value=IconList["friends"]);
 </script>
 
 

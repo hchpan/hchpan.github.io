@@ -1,1 +1,1 @@
-{"P1": {"labels": ["test"], "postTitle": "Hello World!", "postUrl": "post/Hello%20World%21.html", "createdDate": "2025-04-22", "dateLabelColor": "#0969da"}, "labelColorDict": {"test": "#15C864"}}
+{"P1": {"labels": ["test"], "postTitle": "Hello World!", "postUrl": "post/Hello%20World%21.html", "createdDate": "2025-04-22", "dateLabelColor": "#0969da"}, "labelColorDict": {"about": "#1E2DBB", "friends": "#D54168", "test": "#15C864"}}
