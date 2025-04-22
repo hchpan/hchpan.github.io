@@ -6,5 +6,7 @@
     "singlePage":["friends","about"],
     "onePageListNum":10,
     "bottomText":"Unauthorized reproduction prohibited",
+    "i18n":"EN",
+    "UTC":9,
     "GMEEK_VERSION":"last"
 }
