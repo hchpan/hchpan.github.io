@@ -68,6 +68,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         <svg class="octicon" width="16" height="16" >
             <path id="About me" fill-rule="evenodd"></path>
         </svg>
+    </a><a href="https://hchpan.github.io/link.html" class="btn btn-invisible circle" title="My friends">
+        <svg class="octicon" width="16" height="16" >
+            <path id="My friends" fill-rule="evenodd"></path>
+        </svg>
     </a>
     <a href="https://hchpan.github.io/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
@@ -84,18 +88,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div style="margin-bottom: 16px;">Do not go gentle into that good night.</div>
 <nav class="SideNav border">
-<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/My%20friends.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">My friends</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#D54168"><object><a style="color:#fff" href="tag.html#friends">friends</a></object></span>
-        <span class="Label LabelTime" style="background-color:#0969da">2025-04-23</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/Hello%20World%21.html">
+<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/Hello%20World%21.html">
     <div class="d-flex flex-items-center">
         <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
@@ -173,7 +166,7 @@ for(var i=0;i<iconPost.length;i++){
 
 
 
-document.getElementById("About me").setAttribute("d",value=IconList["about"]);
+document.getElementById("About me").setAttribute("d",value=IconList["about"]);document.getElementById("My friends").setAttribute("d",value=IconList["link"]);
 </script>
 
 
